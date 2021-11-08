@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body p {
+	font-size:16px;
+}
+body {
+	background-color:#f3f2e9;
+}
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+}
+/* ヘッダー領域　*/
+header #head {
+	text-align:center;
+	color:#5f5039;
+}
+header h1 {
+	font-family: 'Reggae One', cursive;
+}
+header nav ul {
+	float:right;
+}
+header nav ul li {
+	float:left;
+	list-style-type:none;
+	background-color:#473816;
+	width:250px;
+}
+header nav ul #recommend {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+header nav ul #contact {
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+header nav ul li a {
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+header nav a:hover {
+	background-color:#CCCCCC;
+	color:#5f5039;
+}
+header nav ul li {
+	border-right:1px solid white;
+}
+header {
+	overflow:hidden;
+}
+/*  パンくずリスト　*/
+#breadcrumb ul {
+	overflow:hidden;
+	color:#5f5039;
+	margin-top:30px;
+	margin-left:30px;
+	margin-bottom:50px;
+}
+#breadcrumb li {
+	float:left;
+	list-style-type:none;
+}
+#breadcrumb li:last-child:before {
+	content:">";
+	margin-right:5px;
+}
+#breadcrumb a::after {
+	margin-left:5px;
+}
+#breadcrumb a {
+	margin-right:5px;
+}
+/*  base領域　*/
+#contents {
+	display:flex;
+	overflow:hidden;
+}
+/* midashi領域  */
+#midashi h2 {
+	width:600px;
+	color:#5f5039;
+	border-top:3px solid #5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:30px;
+	padding-left:210px;
+	padding-bottom:30px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position: 170px 5px, 360px 3px;
+}
+#midashi h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-top:1px solid #5f5039;
+	border-bottom:1px solid #5f5039;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+/*　toppage領域　*/
+#absolute6{
+	width:1000px;
+	height:600px;
+	border:5px solid #5f5039;
+	top:0;
+	left:0;
+	position:absolute;
+	display:block;
+	z-index:-1;
+	
+}
+
+.maingazou1 {
+	position:relative;
+	width:1000px;
+	height:600px;
+	margin-top:10px;
+}
+#relative {
+	display:block;
+	width:1000px;
+	height:600px;
+		border:5px solid #5f5039;
+
+}
+#absolute {
+	display:block;
+	position:absolute;
+left: 50px;
+top: 280px;
+	width:30%;
+	height:20%;
+}
+#absolute2 {
+	display:block;
+	position:absolute;
+	left:50px;
+	top:50px;
+	border:2px solid #ffff99;
+	transform:rotate(-20deg);
+}
+#absolute3 {
+	display:block;
+	position:absolute;
+	left:170px;
+	top:100px;
+	border:2px solid #ffff99;
+	transform:rotate(20deg);
+}
+#absolute4 {
+	display:block;
+	position:absolute;
+	left: 340px;
+	top: 30px;
+	font-weight:bold;
+}
+#absolute5{
+position: absolute;
+left: 340px;
+top: 100px;
+transform: rotate(-10deg);
+color: #ffff99;
+font-size: 24px;
+line-height: 22px;
+}
+/* midashi領域  */
+
+#midashi2 h2 {
+	width:600px;
+	color:#5f5039;
+	border-top:3px solid #5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:30px;
+	padding-left:110px;
+	padding-bottom:30px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position: 70px 5px, 210px 3px;
+}
+#midashi2 h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-top:1px solid #5f5039;
+	border-bottom:1px solid #5f5039;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+/* こだわり　*/
+#kodawari2 h2 {
+	width:600px;
+	color:#5f5039;
+	border-top:3px solid #5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:30px;
+	padding-left:230px;
+	padding-bottom:30px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position: 190px 5px, 330px 3px;
+}
+#kodawari2 h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-top:1px solid #5f5039;
+	border-bottom:1px solid #5f5039;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+#midashi p {
+	padding-top:30px;
+	padding-left:30px;
+}
+/* おすすめ　*/
+.line-up {
+	overflow:hidden;
+	padding-left:10px;
+}
+.line-up figure {
+	float:left;
+	padding-right:30px;
+	padding-top:20px;
+}
+.line-up figcaption {
+	text-align:center;
+	color:#5f5039;
+	font-weight:bold;
+}
+#kodawari2 p {
+	padding-top:30px;
+	padding-left:30px;
+	color:#5f5039;
+}
+/* お問い合わせ領域 */
+
+#contact2 {
+	color:#5f5039;
+	padding-top:30px;
+}
+#contact2 ul {
+	padding-top:20px;
+}
+#contact2 li {
+	margin-left:70px;
+}
+input[type="text"] {
+	width: 200px;
+}
+input[type="email"] {
+	width: 300px;
+}
+textarea {
+	width: 420px;
+	height: 115px;
+	overflow-y: scroll;
+}
+input[type="submit"] {
+	margin-top:10px;
+}
+form {
+	padding-top:30px;
+}
+#contents {
+	display:flex;
+	justify-content:space-between;
+}
+#sub {
+	text-align:center;
+	color:#5f5039;
+	width:250px;
+}
+#sub p {
+	font-size:20px;
+	margin-bottom:20px;
+}
+#sub li {
+	list-style-type:none;
+	position:relative;
+}
+#sub li::before {
+	position:absolute;
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	background:#387651;
+	border-radius:0;
+	left:30px;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-instagram-square {
+	color:#5f5039;
+}
+#sns {
+	padding-top:20px;
+}
+/* info領域*/
+#info {
+	display:flex;
+	margin-top:50px;
+	margin-bottom:50px;
+	color:#5f5039;
+}
+#info h2 {
+	line-height:116px;
+	padding-left:50px;
+	padding-right:100px;
+}
+#info1, #info2, #info3, #info4 {
+	display:flex;
+}
+dt {
+	padding-right:100px;
+}
+#info a {
+	paddig-left:0;
+}
+dt, dd {
+	margin-bottom:5px;
+}
+/*  concept領域*/
+
+
+#kodawari {
+	position:relative;
+	background-image:url(../img/tannbo.png);
+	border:5px solid #5f5039;
+	background-repeat:no-repeat;
+	background-size:1000px 500px;
+	height:500px;
+	color:#5f5039;
+}
+#kodawari p {
+	padding-top:50px;
+	padding-bottom:30px;
+	line-height: 40px;
+}
+#kodawari {
+	text-align:center;
+}
+#kodawari p:last-child {
+	text-align:right;
+	padding-right:20px;
+}
+#pagelink::before {
+	display:inline-block;
+	content:"";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width:10px 0 10px 10px;
+	border-color: transparent transparent transparent #387651;
+	margin-right:10px;
+	vertical-align:middle;
+}
+/* 店舗情報　*/
+ h5 {
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position:left 30px, 115px 30px;
+	background-size:25px 25px, 25px 25px;
+	border-bottom:2px groove #CCC;
+	padding-top:30px;
+	padding-left:35px;
+	padding-bottom:10px;
+	color:#5f5039;
+	font-size:18px;
+}
+#aisatsu img {
+	float:right;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+#name {
+	padding-left:20px;
+}
+#aisatsu img, #aisatsu p {
+	padding-top:20px;
+	color:#5f5039;
+}
+#aisatsu {
+	width:600px;
+}
+h6 {
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position:left 30px, 115px 30px;
+	background-size:25px 25px, 25px 25px;
+	border-bottom:2px groove #CCC;
+	padding-top:30px;
+	padding-left:35px;
+	padding-bottom:10px;
+	color:#5f5039;
+	font-size:18px;
+	margin-bottom:30px;
+}
+#kodawari2 ul {
+	float:right;
+	padding-top:50px;
+	color:#5f5039;
+}
+#access li {
+	padding-bottom:20px;
+}
+#kodawari2 img {
+	margin-right:10px;
+}
+/* こだわり領域　*/
+#kodawari2 h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-top:1px solid #5f5039;
+	border-bottom:1px solid #5f5039;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+#kodawari, #guruten h3, #guruten p, #komeko h4, #komeko p, #syokubutuyu p, #sio p {
+	padding-top:30px;
+	color:#5f5039;
+	padding-bottom:10px;
+	padding-left: 35px;
+}
+#komeko, #syokubutuyu {
+	overflow:hidden;
+}
+#komeko img, #syokubutuyu img, #sio img {
+	margin-top:30px;
+	margin-left:35px;
+	display:block;
+}
+#kodawari2 h3 {
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position:left 30px, 340px 30px;
+	background-size:25px 25px, 25px 25px;
+	border-bottom:2px groove #CCC;
+}
+#kodawari2 h4 {
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-repeat:no-repeat, no-repeat;
+	border-bottom:2px groove #CCC;
+	background-size:25px 25px, 25px 25px;
+	background-position:left 30px, 185px 30px;
+	font-size:18px;
+}
+#komeko img, #syokubutuyu img, #sio img {
+	float:left;
+}
+#syokubutuyu img, #komeko p, #sio p {
+	float:right;
+}
+#syokubutuyu img, #komeko img, #sio img {
+	border:5px solid #FF9;
+	box-sizing:content-box;
+}
+#komeko li, #sio li {
+	color:#5f5039;
+	padding-left: 120px;
+	padding-top: 30px;
+}
+#syokubutuyu li {
+	padding-left: 470px;
+	color:#5f5039;
+	padding-top: 30px;
+}
+/*　footer領域　*/
+footer {
+	margin:100px auto 0;
+	text-align:center;
+	color:#5f5039;
+}
+footer #pagetop {
+	text-align:right;
+	padding-right:20px;
+}
+footer address {
+	border-top:2px groove #CCC;
+	margin:5px auto 20px;
+	padding-top:20px;
+}
+footer #pagetop::before {
+	display:inline-block;
+	content:"";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #387651 transparent;
+	margin-right:10px;
+}
