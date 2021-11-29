@@ -2,12 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>タキタベーカリー</title>
+<!--google font 読み込み-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<!--font Awesome読み込み-->
 <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-<link href="https://matsuchihi.github.io/matsu/style.css" rel="stylesheet" type="text/css">
+<!--スマホ-->
+<link rel="stylesheet" href="css/sp.css" media="only screen and (max-width: 640px)">
+<!--タブレット-->
+<link rel="stylesheet" href="css/tb.css" media="only screen and (min-width: 641px) and (max-width: 1039px)">
+<!--デスクトップ-->
+<link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 1040px)">
+
 </head>
 
 <body>
@@ -15,7 +24,7 @@
   <header>
     <div id="head">
       <p>米粉パン専門店</p>
-      <a href="index.html"><img src="https://github.com/matsuchihi/matsu/blob/main/logotakita_03.png?raw=true"></a>
+      <a href="index.html"><img src="img/logotakita_03.png"></a>
       <h1>タキタベーカリー</h1>
     </div>
     <nav>
@@ -34,12 +43,13 @@
     </ul>
   </div>
   <div id="contents">
-    <div id="main">
+    <div id="main" class="left">
       <div id="kodawari2">
         <h2>店舗情報</h2>
+      </div>
         <div id="aisatsu">
           <h5>代表挨拶</h5>
-          <img src="https://github.com/matsuchihi/matsu/blob/main/tensyu-1_03.jpg?raw=true">
+          <img src="img/tensyu-1_03.jpg">
           <p id="tenpo2">タキタベーカリーのパンは米粉を主原料としたグルテンフリーパンです。<br>
             グルテンフリーパンの開発に至ったきっかけは、家族の中に小麦アレルギーの子供がいたことです。<br>
             その子でも食べられるように体にやさしいパンが作れないか。試行錯誤していた頃に出会ったのが、有名アスリートのグルテンフリー生活の本でした。<br>
@@ -57,29 +67,32 @@
         </div>
         <div id="access">
           <h6>アクセス</h6>
-          <img src="https://github.com/matsuchihi/matsu/blob/main/gaikan_03.jpg?raw=true"> <img src="https://github.com/matsuchihi/matsu/blob/main/naisou2.jpeg?raw=true" width="600" height="400">
+          <img src="img/gaikan_03.jpg" width="400" height="400"> <img src="img/naisou2.jpeg" width="600" height="400">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6487.425627034198!2d139.3780028774503!3d35.61015009337682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2b6ecd1a6b9%3A0x31e0f2fde6c316e1!2z44CSMTkyLTAzNjQg5p2x5Lqs6YO95YWr546L5a2Q5biC5Y2X5aSn5rKi77yS5LiB55uu!5e0!3m2!1sja!2sjp!4v1627349865951!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <ul>
             <li>南大沢駅から徒歩10分</li>
             <li>駐車場有</li>
           </ul>
         </div>
-      </div>
+      
     </div>
     <div id="sub">
+      <div class="shop-info">
       <p>2021年7月</p>
-      <img src="https://github.com/matsuchihi/matsu/blob/main/calender_03.png?raw=true">
+      <img src="img/calender_03.png">
       <li>店休日</li>
+    </div>
+    <div class="sns">
       <p id="sns">公式SNS</p>
       <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a> <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a> <a href="#"><i class="fab fa-instagram-square fa-3x"></i></a> </div>
   </div>
+</div>
   <footer>
     <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
     <address>
-    東京都八王子市南大沢２丁目２７　電話　０４２－６７０－ＸＸＸＸ　営業時間 １０：００～２０：００
+    <span class="add">東京都八王子市南大沢２丁目２７</span>　<span class="add">電話　０４２－６７０－ＸＸＸＸ</span>　<span class="hour">営業時間 １０：００～２０：００</span>
     </address>
     <p><small>Copyright TAKITA-BAKERY © All Right Reserved.</small></p>
   </footer>
-</div>
 </body>
 </html>
