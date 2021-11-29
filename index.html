@@ -2,14 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>タキタベーカリー</title>
+<!--google font 読み込み-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<!--font Awesome読み込み-->
 <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="https://matsuchihi.github.io/matsu/style.css">
+<!--スマホ-->
+<link rel="stylesheet" href="css/sp.css" media="only screen and (max-width: 640px)">
+<!--タブレット-->
+<link rel="stylesheet" href="css/tb.css" media="only screen and (min-width: 641px) and (max-width: 1039px)">
+<!--デスクトップ-->
+<link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 1040px)">
+
 </head>
 
 <body>
@@ -17,7 +24,7 @@
   <header>
     <div id="head">
       <p>米粉パン専門店</p>
-      <img src="https://github.com/matsuchihi/matsu/blob/main/logotakita_03.png?raw=true">
+      <img src="img/logotakita_03.png">
       <h1>タキタベーカリー</h1>
     </div>
     <nav>
@@ -30,11 +37,11 @@
     </nav>
   </header>
   <div class="maingazou1">
-    <div><img id="relative" src="https://github.com/matsuchihi/matsu/blob/main/14330.jpg?raw=true"><img src="https://github.com/matsuchihi/matsu/blob/main/mongon-1_03_07.png?raw=true" id="absolute"> <img src="https://github.com/matsuchihi/matsu/blob/main/komeko_03.jpg?raw=true" width="150" height="150" id="absolute2"><img src="https://github.com/matsuchihi/matsu/blob/main/syokubutuyu_03.png?raw=true" width="150" height="150" id="absolute3"><img src="https://github.com/matsuchihi/matsu/blob/main/hukidashi-1_03_03.png?raw=true" id="absolute4">
+    <div><img id="relative" src="img/14330.jpg"><img src="img/mongon-1_03_07.png" id="absolute"> <img src="img/komeko_03.jpg" width="150" height="150" id="absolute2"><img src="img/syokubutuyu_03.png" width="150" height="150" id="absolute3"><img src="img/hukidashi-1_03_03.png" id="absolute4">
       <p id="absolute5">カラダにやさしい<br>
         原材料を使用しています！！</p>
     </div>
-    <div><img src="https://github.com/matsuchihi/matsu/blob/main/irodorikomekopan-1.png?raw=true" id="absolute6"></div>
+    
   </div>
   <div id="info">
     <h2>お知らせ</h2>
@@ -70,18 +77,11 @@
   <footer>
     <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
     <address>
-    東京都八王子市南大沢２丁目２７　電話　０４２－６７０－ＸＸＸＸ　営業時間 １０：００～２０：００
+    <span class="add">東京都八王子市南大沢２丁目２７</span>　<span class="add">電話　０４２－６７０－ＸＸＸＸ</span>　<span class="hour">営業時間 １０：００～２０：００</span>
     </address>
     <p><small>Copyright TAKITA-BAKERY © All Right Reserved.</small></p>
   </footer>
 </div>
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-  $('.maingazou1').slick();
-});
-</script>
+
 </body>
 </html>
