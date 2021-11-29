@@ -1,0 +1,532 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	}
+
+body p {
+	font-size:16px;
+}
+body {
+	background-color:#f3f2e9;
+}
+#wrapper {
+	max-width: 100%;
+	margin:0 auto;
+}
+/* ヘッダー領域　*/
+header{
+	width: 100%;
+}
+header #head {
+	text-align:center;
+	color:#5f5039;
+}
+header h1 {
+	font-family: 'Reggae One', cursive;
+}
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+header nav ul li {
+	display: inline-block;
+	list-style-type:none;
+	background-color:#473816;
+	width: 50%;
+	}
+header ul li:first-child{
+	border-bottom: 1px solid white;
+}
+header ul li:nth-child(2){
+	border-bottom:1px solid white;
+}
+
+header nav ul li a {
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+header nav a:hover {
+	background-color:#CCCCCC;
+	color:#5f5039;
+}
+header nav ul li {
+	border-right:1px solid white;
+}
+header {
+	overflow:hidden;
+}
+/*　footer領域　*/
+footer {
+	margin-bottom:20px;
+	margin-top: 40px;
+	text-align:center;
+	color:#5f5039;
+}
+footer #pagetop {
+	display: none;
+}
+footer span{
+	display: block;
+}
+footer address {
+	margin:5px auto 20px;
+}
+footer #pagetop::before {
+	display:inline-block;
+	content:"";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #387651 transparent;
+	margin-right:10px;
+}
+/*  パンくずリスト　*/
+#breadcrumb ul {
+	display: none;
+	overflow:hidden;
+	color:#5f5039;
+	margin-top:30px;
+	margin-left:30px;
+	margin-bottom:50px;
+}
+#breadcrumb li {
+	float:left;
+	list-style-type:none;
+}
+#breadcrumb li:last-child:before {
+	content:">";
+	margin-right:5px;
+}
+#breadcrumb a::after {
+	margin-left:5px;
+}
+#breadcrumb a {
+	margin-right:5px;
+}
+/*  base領域　*/
+#contents {
+	display:flex;
+	flex-direction: column;
+	overflow:hidden;
+}
+/* midashi領域  */
+#midashi {
+	text-align: center;
+}
+#midashi h2 {
+	width:100%;
+	font-size:5vw;
+	color:#5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:30px;
+	padding-bottom:30px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position: 30% 40%, 70% 35%;
+}
+
+/*　toppage領域　*/
+#absolute6{
+	display: none;
+	
+}
+
+.maingazou1 {
+	position:relative;
+	width:100%;
+	height:300px;
+}
+#relative {
+	display:block;
+	width:100%;
+	height:300px;
+	object-fit: cover;
+
+}
+#absolute {
+	display:block;
+	position:absolute;
+left: 50px;
+top: 220px;
+	width:30%;
+	height:20%;
+}
+#absolute2 {
+	display:block;
+	position:absolute;
+	left:20px;
+	top:20px;
+	border:2px solid #ffff99;
+	transform:rotate(-20deg);
+	width:20%;
+	height: 20%;
+	object-fit: cover;
+}
+#absolute3 {
+	display:block;
+	position:absolute;
+	left:50px;
+	top:75px;
+	border:2px solid #ffff99;
+	transform:rotate(20deg);
+	width: 20%;
+	height: 20%;
+	object-fit: cover;
+}
+#absolute4 {
+	display:none;
+}
+#absolute5{
+position: absolute;
+left: 35%;
+top: 40%;
+transform: rotate(-10deg);
+color: #ffff99;
+font-size: 1rem;
+font-weight: bold;
+border:2px solid #ffff99;
+}
+/* midashi領域  */
+
+#midashi2 h2 {
+	width:600px;
+	color:#5f5039;
+	border-top:3px solid #5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:30px;
+	padding-left:110px;
+	padding-bottom:30px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position: 70px 5px, 210px 3px;
+}
+#midashi2 h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-top:1px solid #5f5039;
+	border-bottom:1px solid #5f5039;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+}
+/* こだわり　*/
+#kodawari2 h2 {
+	width:100%;
+	font-size:5vw;
+	text-align: center;
+	color:#5f5039;
+	border-bottom:3px solid #5f5039;
+	padding-top:40px;
+	padding-bottom:40px;
+	position:relative;
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-repeat:no-repeat, no-repeat;
+	background-position:35% 40%, 65% 35%;
+}
+
+#kodawari2 h2::after {
+	content:"";
+	position:absolute;
+	top: 4px;
+	left:3px;
+	border-bottom:1px solid #5f5039;
+}
+#kodawari2 p {
+	text-align: center;
+	padding-top: 20px;
+	color:#5f5039;
+}
+#midashi p {
+	padding-top:30px;
+	padding-left:30px;
+}
+/* おすすめ　*/
+.second-layout{
+	display: flex;	
+	justify-content: space-around;
+
+
+}
+
+.line-up figure {
+	padding-top:20px;
+	display: block;
+	text-align: center;
+
+}
+
+.line-up figcaption {
+	text-align:center;
+	color:#5f5039;
+	font-weight:bold;
+}
+.line-up figcaption br{
+	display: none;
+}
+@media screen and (max-width: 470px){
+	.second-layout{
+		flex-direction: column;
+	}
+	.line-up figcaption{
+		padding-bottom: 10px;
+	}
+	#sub{
+		width: 100%;
+		margin:30px auto;
+	}
+}
+/* お問い合わせ領域 */
+
+#contact2 {
+	color:#5f5039;
+	padding-top:30px;
+}
+#contact2 ul {
+	padding-top:20px;
+	margin-left: 10px;
+}
+#contact2  ul li{
+	margin-left: 20px;
+}
+
+input[type="text"] {
+	width: 90%;
+}
+input[type="email"] {
+	width: 90%;
+}
+textarea {
+	width: 90%;
+	height: 115px;
+	overflow-y: scroll;
+}
+input[type="submit"] {
+	margin-top:10px;
+}
+form {
+	padding-top:30px;
+	text-align: center;
+}
+#contents {
+	display:flex;
+	justify-content:space-between;
+	padding: 0 5px;
+}
+
+#sub {
+	color:#5f5039;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	text-align: center;
+}
+#sub p {
+	font-size:20px;
+	margin-bottom:20px;
+}
+#sub li {
+	list-style-type:none;
+	position:relative;
+}
+#sub li::before {
+	position:absolute;
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	background:#387651;
+	border-radius:0;
+	left:30px;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-instagram-square {
+	color:#5f5039;
+}
+.sns{
+	text-align: center;
+}
+#sns {
+	padding-top:20px;
+}
+/* info領域*/
+#info {
+	margin:50px 5px;
+	color:#5f5039;
+}
+#info h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 1.3rem;
+}
+#info1, #info2, #info3, #info4 {
+	display:flex;
+	flex-direction: column;
+}
+dt {
+	padding-right:100px;
+}
+#info a {
+	padding-left:0;
+}
+dt, dd {
+	margin-bottom:5px;
+}
+/*  concept領域*/
+#kodawari h3{
+	font-size: 1.3rem;
+}
+
+#kodawari {
+	position:relative;
+	background-image:url(../img/tannbo.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	color:#5f5039;
+	padding-top: 50px;
+}
+#kodawari p {
+	padding: 20px 10px;
+	line-height: 30px;
+
+}
+#kodawari p br{
+	display: none;
+}
+#kodawari {
+	text-align:center;
+}
+
+#pagelink a{
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 20px;
+	background-color: #473816;
+	color: white;
+	background-size: 30%;
+	padding:5px;
+	border-radius: 10px;
+}
+#pagelink a:hover{
+	color: #5f5039;
+	background-color: #ccc;
+}
+#pagelink::before {
+	display: none;
+}
+/* 店舗情報　*/
+#aisatsu{
+	text-align: center;
+}
+#aisatsu h5{
+	padding-top: 30px;
+    color: #5f5039;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+#aisatsu p{
+	line-height: 30px;
+	padding:20px 5px;
+}
+#aisatsu br{
+	display: none;
+}
+
+#aisatsu img {
+	width: 80%;
+	object-fit: cover;
+	height: 300px;
+}
+#aisatsu {
+	width:100%;
+		color:#5f5039;
+
+}
+
+#kodawari2 ul {
+	float:right;
+	padding-top:50px;
+	color:#5f5039;
+}
+#access h6 {
+	padding-top: 30px;
+    color: #5f5039;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+
+}
+#access{
+	text-align: center;
+}
+#access img , #access iframe{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+#access li {
+	padding:20px 20px;
+	text-align: left;
+		list-style-position: inside;
+}
+
+#kodawari2 img {
+	margin-right:10px;
+}
+/* こだわり領域　*/
+#guruten{
+	text-align: center;
+}
+#guruten br{
+	display: none;
+}
+ #guruten h3, #guruten p, #komeko h4, #komeko p, #syokubutuyu p, #sio p {
+	padding-top:30px;
+	color:#5f5039;
+	padding-bottom:10px;
+}
+#guruten p{
+	line-height: 30px;
+}
+
+#komeko img, #syokubutuyu img, #sio img {
+	margin-top:30px;
+	
+}
+#kodawari2 h3 {
+	
+	font-size: 1.2rem;
+}
+
+.zairyo p{
+	line-height: 30px;
+	padding:0 10px;
+}
+.zairyo br{
+	display: none;
+}
+
+.zairyo img {
+	border:5px solid #FF9;
+	box-sizing:content-box;
+	width: 70%;
+	height: 230px;
+	object-fit: cover;
+}
+.zairyo li{
+	color:#5f5039;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+#komeko ,#syokubutuyu , #sio{
+	text-align: center;
+}
+
+
