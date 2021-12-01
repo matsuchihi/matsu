@@ -188,7 +188,7 @@ line-height: 22px;
 	padding-left:110px;
 	padding-bottom:30px;
 	position:relative;
-	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-image:url(../img/happa_06.png), url("https://github.com/matsuchihi/matsu/blob/main/happa-2_06.png?raw=true");
 	background-repeat:no-repeat, no-repeat;
 	background-position: 70px 5px, 210px 3px;
 }
