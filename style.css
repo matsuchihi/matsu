@@ -97,7 +97,7 @@ header {
 	padding-left:210px;
 	padding-bottom:30px;
 	position:relative;
-	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
+	background-image:url("https://github.com/matsuchihi/matsu/blob/main/happa_06.png?raw=true"), url(../img/happa-2_06.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position: 170px 5px, 360px 3px;
 }
