@@ -387,7 +387,7 @@ dt, dd {
 
 #kodawari {
 	position:relative;
-	background-image:url(../img/tannbo.png);
+	background-image:url("https://github.com/matsuchihi/matsu/blob/main/tannbo.png?raw=true");
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	color:#5f5039;
