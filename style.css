@@ -385,6 +385,8 @@ dt, dd {
 #aisatsu img {
 	float:right;
 	padding-left:20px;
+	width:550px;
+	height:auto;
 	padding-bottom:20px;
 }
 #name {
@@ -393,9 +395,12 @@ dt, dd {
 #aisatsu img, #aisatsu p {
 	padding-top:20px;
 	color:#5f5039;
+	margin:0 auto;
 }
 #aisatsu {
 	width:600px;
+	display:flex;
+	flex-direction:column;
 }
 h6 {
 	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
