@@ -440,7 +440,11 @@ dt, dd {
 	display: none;
 }
 
-
+#aisatsu img {
+	width: 80%;
+	object-fit: cover;
+	height: 300px;
+}
 #aisatsu {
 	width:100%;
 		color:#5f5039;
@@ -524,5 +528,3 @@ dt, dd {
 #komeko ,#syokubutuyu , #sio{
 	text-align: center;
 }
-
-
