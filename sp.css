@@ -441,7 +441,7 @@ dt, dd {
 }
 
 #aisatsu img {
-	width: 80%;
+	width: 100%;
 	object-fit: cover;
 	height: 300px;
 }
