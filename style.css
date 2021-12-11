@@ -97,7 +97,7 @@ header {
 	padding-left:210px;
 	padding-bottom:30px;
 	position:relative;
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/happa_06.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/happa-2_06.png?raw=true");
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position: 170px 5px, 360px 3px;
 }
@@ -188,7 +188,7 @@ line-height: 22px;
 	padding-left:110px;
 	padding-bottom:30px;
 	position:relative;
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/happa_06.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/happa-2_06.png?raw=true");
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position: 70px 5px, 210px 3px;
 }
@@ -212,7 +212,7 @@ line-height: 22px;
 	padding-left:230px;
 	padding-bottom:30px;
 	position:relative;
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/happa_06.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/happa-2_06.png?raw=true");
+	background-image:url(../img/happa_06.png), url(../img/happa-2_06.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position: 190px 5px, 330px 3px;
 }
@@ -338,7 +338,7 @@ dt, dd {
 
 #kodawari {
 	position:relative;
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/tannbo.png?raw=true");
+	background-image:url(../img/tannbo.png);
 	border:5px solid #5f5039;
 	background-repeat:no-repeat;
 	background-size:1000px 500px;
@@ -371,7 +371,7 @@ dt, dd {
 }
 /* 店舗情報　*/
  h5 {
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position:left 30px, 115px 30px;
 	background-size:25px 25px, 25px 25px;
@@ -385,9 +385,9 @@ dt, dd {
 #aisatsu img {
 	float:right;
 	padding-left:20px;
-	width:550px;
-	height:auto;
 	padding-bottom:20px;
+	width: 550px;
+	height: auto;
 }
 #name {
 	padding-left:20px;
@@ -395,15 +395,15 @@ dt, dd {
 #aisatsu img, #aisatsu p {
 	padding-top:20px;
 	color:#5f5039;
-	margin:0 auto;
+	margin: 0 auto;
 }
 #aisatsu {
 	width:600px;
-	display:flex;
-	flex-direction:column;
+	display: flex;
+	flex-direction: column;
 }
 h6 {
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position:left 30px, 115px 30px;
 	background-size:25px 25px, 25px 25px;
@@ -456,14 +456,14 @@ h6 {
 	display:block;
 }
 #kodawari2 h3 {
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
 	background-repeat:no-repeat, no-repeat;
 	background-position:left 30px, 340px 30px;
 	background-size:25px 25px, 25px 25px;
 	border-bottom:2px groove #CCC;
 }
 #komeko h4 {
-	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
+	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
 	background-repeat:no-repeat, no-repeat;
 	border-bottom:2px groove #CCC;
 	background-size:25px 25px, 25px 25px;
