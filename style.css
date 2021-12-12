@@ -471,27 +471,28 @@ h6 {
 	background-position:left 30px, 185px 30px;
 	font-size:18px;
 }
-#komeko img, #syokubutuyu img, #sio img {
-	float:left;
-	width: 310px;
-}
-#syokubutuyu img, #komeko p, #sio p {
-	float:right;
-}
+
 #syokubutuyu img, #komeko img, #sio img {
 	border:5px solid #FF9;
 	box-sizing:content-box;
 }
-#komeko li, #sio li {
+#komeko li {
 	color:#5f5039;
-	padding-left: 120px;
+	padding-left: 75px;
 	padding-top: 30px;
 }
 #syokubutuyu li {
-	padding-left: 520px;
-	color:#5f5039;
+	text-align: right;
+    margin-right: 120px;
+    color: #5f5039;
 	padding-top: 30px;
 }
+#sio li{
+color: #5f5039;
+    padding-left: 85px;
+    padding-top: 30px;
+}
+	
 /*　footer領域　*/
 footer {
 	margin:100px auto 0;
