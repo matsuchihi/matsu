@@ -461,6 +461,7 @@ h6 {
 	background-position:left 30px, 340px 30px;
 	background-size:25px 25px, 25px 25px;
 	border-bottom:2px groove #CCC;
+	width:550px;
 }
 #komeko h4 {
 	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
