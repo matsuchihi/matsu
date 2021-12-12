@@ -335,7 +335,7 @@ form {
 #sub {
 	color:#5f5039;
 	display: flex;
-	justify-content: space-around;
+	flex-direction:column;
 	margin-top: 30px;
 	text-align: center;
 }
