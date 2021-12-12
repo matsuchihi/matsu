@@ -303,9 +303,12 @@ border:2px solid #ffff99;
 
 input[type="text"] {
 	width: 90%;
+	height:30px;
+	
 }
 input[type="email"] {
 	width: 90%;
+	height:30px;
 }
 textarea {
 	width: 90%;
