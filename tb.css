@@ -359,7 +359,7 @@ dt, dd {
 }
 /* 店舗情報　*/
  #aisatsu h5 {
-	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-image:url(https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true), url(https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true);
 	background-repeat:no-repeat, no-repeat;
 	background-position:left 30px, 115px 30px;
 	background-size:25px 25px, 25px 25px;
@@ -390,7 +390,7 @@ dt, dd {
 	flex-direction: column;
 }
 #access h6 {
-	background-image:url(../img/shokupan.png), url(../img/shokupan.png);
+	background-image:url(https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true), url(https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true);
 	background-repeat:no-repeat, no-repeat;
 	background-position:left 30px, 115px 30px;
 	background-size:25px 25px, 25px 25px;
