@@ -471,6 +471,7 @@ h6 {
 }
 .komeko-info , .syokubutuyu-info , .sio-info{
 	display:flex;
+	justify-content: space-between;
 }
 #syokubutuyu img, #komeko img, #sio img {
 	border:5px solid #FF9;
@@ -482,8 +483,7 @@ h6 {
 	padding-top: 30px;
 }
 #syokubutuyu li {
-	text-align: right;
-    margin-right: 120px;
+    padding-left: 110px;
     color: #5f5039;
 	padding-top: 30px;
 }
