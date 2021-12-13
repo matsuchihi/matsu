@@ -448,9 +448,7 @@ h6 {
 	padding-bottom:10px;
 	padding-left: 35px;
 }
-#komeko, #syokubutuyu {
-	overflow:hidden;
-}
+
 #komeko img, #syokubutuyu img, #sio img {
 	margin-top:30px;
 	display:block;
@@ -471,7 +469,9 @@ h6 {
 	background-position:left 30px, 185px 30px;
 	font-size:18px;
 }
-
+.komeko-info , .syokubutuyu-info , .sio-info{
+	display:flex;
+}
 #syokubutuyu img, #komeko img, #sio img {
 	border:5px solid #FF9;
 	box-sizing:content-box;
