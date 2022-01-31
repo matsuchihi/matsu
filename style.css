@@ -399,6 +399,9 @@ dt, dd {
 	display: flex;
 	flex-direction: column;
 }
+#tenpo2 br{
+	display:none;
+}
 h6 {
 	background-image:url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true"), url("https://github.com/matsuchihi/matsu/blob/main/shokupan.png?raw=true");
 	background-repeat:no-repeat, no-repeat;
